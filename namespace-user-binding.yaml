@@ -1,7 +1,7 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: [USER-EDITOR]
+  name: rb-[NAMESPACE]
   namespace: [NAMESPACE]
 subjects:
 - kind: User
