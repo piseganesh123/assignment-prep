@@ -2,7 +2,7 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   namespace: [NAMESPECE]
-  name: pod-owner-[USER]
+  name: [NAMESPACE]-owner
 rules:
 - apiGroups: [""]
   resources: ["pods","deployments","services']
