@@ -9,5 +9,5 @@ subjects:
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
-  name: pod-writer
+  name: [NAMESPACE]-owner
   apiGroup: rbac.authorization.k8s.io
